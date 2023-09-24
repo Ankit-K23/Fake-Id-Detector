@@ -55,7 +55,9 @@
 
 #userDetailsContainer img {
     width: 80px;
-    border-radius: 50px;
+    height: 81px;
+    border-radius: 58px;
+    margin-right: 10px;
 }
 
 #boxx {
