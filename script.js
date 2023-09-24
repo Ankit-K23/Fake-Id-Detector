@@ -30,7 +30,7 @@ const users = [
         followersCount: "88",
         postsCount: "0",
         isverified: false,
-        profilepic: "https://instagram.famd1-3.fna.fbcdn.net/v/t51.2885-19/369178158_519059633727396_7226910190904396183_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.famd1-3.fna.fbcdn.net&_nc_cat=100&_nc_ohc=qtMP3BzsWIwAX_shEeg&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfC_dcUbdcVj7RAd_Ljego8t8EGPUN6WP92uqI10rRtJZg&oe=65155473&_nc_sid=8b3546",
+        profilepic: "a.jpg",
         creationDate: '2021-12-01',
     },
     {
@@ -107,7 +107,7 @@ function detect() {
         document.getElementById('followersCount').textContent = user.followersCount;
         document.getElementById('postsCount').textContent = user.postsCount;
         document.getElementById('isVerified').textContent = user.isVerified ? 'Yes' : 'No';
-        document.getElementById('profilePicture').src = user.profilePicture;
+        document.getElementById('profilePicture').src = user.profilepic;
         document.getElementById('creationDate').textContent = user.creationDate;
 
         userDetailsContainer.style.display = 'block';
