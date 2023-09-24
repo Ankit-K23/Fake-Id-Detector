@@ -8,7 +8,7 @@
 
 .box {
     width: 30%;
-    height: 200px;
+    height: 235px;
     border: 2px solid rgba(0, 0, 0, 0.5);
 }
 
@@ -45,5 +45,21 @@
 
 #result {
     display: flex;
-justify-content: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+#userDetailsContainer {
+    display: none;
+}
+
+#userDetailsContainer img {
+    width: 80px;
+    border-radius: 50px;
+}
+
+#boxx {
+    display: none;
+    justify-content: center;
+    align-items: center;
 }
