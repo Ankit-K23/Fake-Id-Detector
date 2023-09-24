@@ -30,7 +30,7 @@ const users = [
         followersCount: "88",
         postsCount: "0",
         isverified: false,
-        profilepic: "Avatar.png",
+        profilepic: "https://github.com/Ankit-K23/Fake-Id-Detector/blob/10e213d2463e4e30f580bc1efd6d7d2178fe41cb/Avatar.png",
         creationDate: '2021-12-01',
     },
     {
